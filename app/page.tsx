@@ -8,7 +8,7 @@ const Home = () => {
         <div className="versionContainer">
           <div className="title">Downloads Files</div>
           <a href={"./TRUST-APP-AND.apk"} download className="box">
-            <div className="title">Android version</div>
+            <div className="title">Android New version</div>
             <div className="img">
               <Image
                 width={100}
