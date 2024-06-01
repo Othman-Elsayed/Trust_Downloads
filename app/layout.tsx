@@ -5,11 +5,9 @@ import Header from "@/components/header/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio | Othman Elsayed",
+  title: "Trust",
   description: `
-  hello i am Othman elsayed front end developer using React.js & Next.js,
-  and i am always eager to evolve, improve my skills, and acquire new
-  ones.
+  Trust
   `,
 };
 
