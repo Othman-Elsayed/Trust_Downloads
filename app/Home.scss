@@ -1,0 +1,79 @@
+.Home {
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .btns {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 35px 0;
+            padding-top: 0 !important;
+            position: relative;
+        }
+
+        .versionContainer {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 400px;
+            width: 100%;
+
+            >.title {
+                font-size: 25px;
+                font-style: italic;
+            }
+
+            .box {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                flex-direction: row-reverse;
+                background-color: var(--bg-secondary);
+                height: 80px;
+                width: 100%;
+                border-radius: 12px;
+                border: 1px solid var(--cr-border);
+                overflow: hidden;
+                width: 100%;
+                cursor: pointer;
+                transition: .3s ease;
+                border: 1px solid var(--cr-border);
+
+                &:hover {
+                    background: var(--cr-hover);
+                }
+
+                &:active {
+                    scale: .8;
+                }
+
+                .title {
+                    flex: 1;
+                    padding: 5px;
+                    text-align: start !important;
+                    padding-left: 20px;
+                }
+
+                .img {
+                    width: 100px;
+                    height: 100%;
+                    overflow: hidden;
+                    background-color: #fff;
+
+                    * {
+                        object-fit: cover;
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                }
+            }
+        }
+    }
+}
